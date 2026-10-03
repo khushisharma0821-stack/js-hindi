@@ -76,12 +76,19 @@ let str22="father"
 console.log(str11+str22)
 console.log(1+"2")
 console.log("2"+1)
-console.log("1"+2+3);//take as a string
-console.log(2+3+"7")//add and then add with string
-console.log(+true)
+console.log("1"+2+3);//take as a string,123
+console.log(2+3+"7")//add and then add with string ,57
+console.log(true)
+console.log(+true)//1
 console.log(+"");
 
+let x = 3;
+const y = x++;//post increament phle x ,y mai store hoga and then increament
+// x is 4; y is 3
 
+let x=3
+const y=++x;
+//x is 4 and y is 4 
 
 
 
